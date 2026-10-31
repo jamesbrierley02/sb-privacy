@@ -2,7 +2,7 @@
 
 **Effective date:** 29 October 2026
 
-This policy explains how SB & Sons Transport Services Limited ("we", "us") uses personal data in the SB & Sons iOS app. The app is a private business tool for arranging and carrying out kitchen deliveries for our trade customers, Howdens Joinery and Cliftons depots. It is not available to the public.
+This policy explains how SB & Sons Transport Services Limited ("we", "us") uses personal data in the SB & Sons iOS app. The app is a private business tool for arranging and carrying out deliveries for our customers and partner depots. It is not available to the public.
 
 ## Who we are
 SB & Sons Transport Services Limited is a limited company registered in England and Wales, company number 14311211, owned and directed by Stephen Brierley.
@@ -35,7 +35,7 @@ Only postcodes/coordinates are sent – no names or phone numbers.
 ## Who we share it with
 - **Supabase** – hosts our database, sign-in and file storage in its London (UK) region.
 - **Route and postcode services** listed above, for postcode/coordinate lookups only.
-- **Howdens / Cliftons** – the depot that booked a delivery can see its status and proof of delivery.
+- **Our customers’ depots** – the depot that booked a delivery can see its status and proof of delivery.
 - Authorities or advisers where the law requires it.
 
 We do **not** sell personal data, show adverts, or use tracking or analytics for advertising.
