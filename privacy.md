@@ -1,6 +1,6 @@
 # SB & Sons – Privacy Policy
 
-**Effective date:** 29 October 2026
+**Effective date:** 18 November 2026
 
 This policy explains how SB & Sons Transport Services Limited ("we", "us") uses personal data in the SB & Sons iOS app. The app is a private business tool for arranging and carrying out deliveries for our customers and partner depots. It is not available to the public.
 
@@ -23,7 +23,9 @@ Our admin staff, our drivers, and staff at our customers' depots. Accounts are c
 ## Route and postcode lookups
 To show the road route, miles and drive time, depot and delivery postcodes or map coordinates are sent to:
 - **postcodes.io** – to convert postcodes into map coordinates;
-- **OpenRouteService** and/or **OSRM** (project-osrm.org) – to calculate road routes.
+- **Google Maps (Routes API)** – to calculate the **shortest of Google's suggested driving routes** for mileage and pricing (not a straight-line estimate);
+- **OpenRouteService** (openrouteservice by HeiGIT) and, if needed, **OSRM** (project-osrm.org) – used if Google Maps is unavailable, and to draw the route line on the map (the map itself is not a Google map).
+Map data © OpenStreetMap contributors. © openrouteservice by HeiGIT | Data from OpenStreetMap. Distance: Google Maps, where that figure is used.
 Only postcodes/coordinates are sent – no names or phone numbers.
 
 ## Why we use it, and our lawful basis (UK GDPR)
@@ -34,15 +36,15 @@ Only postcodes/coordinates are sent – no names or phone numbers.
 
 ## Who we share it with
 - **Supabase** – hosts our database, sign-in and file storage in its London (UK) region.
-- **Route and postcode services** listed above, for postcode/coordinate lookups only.
+- **Route and postcode services** listed above (including Google Maps for mileage), for postcode/coordinate lookups only.
 - **Our customers’ depots** – the depot that booked a delivery can see its status and proof of delivery.
 - Authorities or advisers where the law requires it.
 
 We do **not** sell personal data, show adverts, or use tracking or analytics for advertising.
 
 ## How long we keep it
-- **Proof-of-delivery photos and delivery details** (customer names, addresses, phone numbers, notes, status notes and saved routes): deleted automatically 60 days after the delivery date.
-- **Basic job history:** after 60 days we keep only the delivery postcode, date, depot and time slot (with the job status, assigned driver and mileage), so we can keep job history and invoice our customers.
+- **Personal details** (phone, street address, notes, items, proof-of-delivery photos and route detail): removed about 30 days after a job is finished and settled.
+- **Account or customer name, postcode, date, depot and price:** kept for invoicing and legal or tax records.
 - **Staff and depot accounts:** deleted when the person leaves or no longer needs access.
 - **Accounting records:** as long as the law requires (usually 6 years).
 
